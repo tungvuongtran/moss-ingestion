@@ -20,8 +20,8 @@ STG_TABLE = "moss_ingestion_staging"     # CSV columns only, all STRING
 CURATED_DATASET = "parcel_tracking_curated"
 DEST_TABLE = "daily_charges_file"        # typed curated table (+ 3 generated cols)
 
-# Format of TxnDt in file; update if your files differ
-TXNDT_FORMAT = "%Y-%m-%d %H:%M:%S"       # e.g., "2025-09-04 13:45:00"
+# Format of TxnDt in file;
+TXNDT_FORMAT = "%Y-%m-%d %H:%M:%S"
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Columns typed in curated table (for cast mapping)
